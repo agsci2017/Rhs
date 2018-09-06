@@ -196,7 +196,7 @@ class Sample:
 	
 	
 	def fits(self, req):
-		request=set( req.split(" ") ) #набор слов запроса
+		request=set( req.strip().split(" ") ) #набор слов запроса
 
 		found=False
 		
